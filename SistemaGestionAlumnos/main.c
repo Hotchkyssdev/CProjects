@@ -198,5 +198,4 @@ int main() {
     printf("Bienvenido al Sistema de Gestion de Alumnos!\n");
     menuPrincipal();
     return 0;
-
 }
