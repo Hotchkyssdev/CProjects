@@ -185,7 +185,7 @@ void mostrarPromedio(Alumno *alumnos, int cantidad) {
         suma += (alumnos + i)->promedio;
     }
 
-    printf("\nPromedio general: %.2f\n", suma / cantidad);
+    printf("\nPromedio General: %.2f\n", suma / cantidad);
 }
 
 void liberarMemoria(Alumno *alumnos) {
@@ -198,4 +198,5 @@ int main() {
     printf("Bienvenido al Sistema de Gestion de Alumnos!\n");
     menuPrincipal();
     return 0;
+
 }
