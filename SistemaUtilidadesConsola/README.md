@@ -33,18 +33,17 @@ El programa analiza **números pasados por línea de comandos**, realiza operaci
 ---
 
 ## Estructura del proyecto
+```text
 SistemaUtilidadesConsola/
-│
 ├── main.c
 ├── menu.c
 ├── procesador.c
-│
-│── config.h
+├── config.h
 ├── menu.h
 ├── procesador.h
-│
 └── output/
-└── sistema.exe
+    └── sistema.exe
+```
 
 ---
 
